@@ -1,0 +1,20 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "node-express app training",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "MongoDB"
+  ],
+  "author": "Belozub I. <belozubi@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2"
+  }
+}
