@@ -1,0 +1,18 @@
+<div class="formContainer">
+    <form class="newsletterForm" role="form" action="/notify-me-when-in-season" method="post">
+        <input type="hidden" name="sku" value="{{sku}}">
+        <div>
+            <label for="fieldEmail" class="col-sm-2">
+                Email
+            </label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" required id="fieldEmail" name="email" />
+            </div>
+        </div>
+        <div>
+            <div class="col-sm-offset-2 col-sm-4">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </form>
+</div>
